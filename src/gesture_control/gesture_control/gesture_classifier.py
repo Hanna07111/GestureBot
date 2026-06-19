@@ -57,7 +57,7 @@ def recognize_gesture(hand_landmarks):
         return 'backward'
 
     # 오른쪽을 가리킴: 검지 손가락이 오른쪽을 가리킴-> 오른쪽으로 회전 
-    # 왼쪽을 가리킴: 검지 손가락이 왼쪽을 가리킴 -> 왼쪽으로 회정
+    # 왼쪽을 가리킴: 검지 손가락이 왼쪽을 가리킴 -> 왼쪽으로 회전
     if index_extended and not middle_extended and not ring_extended and not pinky_extended:
         if lm[0].x < lm[8].x:
             return 'right'
