@@ -1,4 +1,4 @@
-# GestureBot
+# GestureBot 🤖
 
 손동작 기반 모바일 로봇 제어 시스템
 
